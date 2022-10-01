@@ -1,0 +1,171 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-white-color: #ffffff;
+--logo-color: #000000;
+}
+
+body {
+    color:var(--title-text-color);
+    font-family: 'Roboto', sans;
+    letter-spacing: 0.03em;
+}
+
+.body {
+    background-color:var(--primary-white-color);
+    font-size: 14px;
+    line-height: 1,1;  
+}
+
+ul {
+    list-style: none;
+ }
+
+.logo {
+    /* WebStudio */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    text-decoration: none;
+    color: var(--accent-color)
+  }
+
+.accent-header {
+    color: var(--logo-color);
+}
+.accent-footer {
+    color: var(--logo-color);
+}
+   /* Site nav */
+.site-nav.link {
+    color: var(--title-text-color);
+}
+
+.site-nav.link:hover,
+.site-nav.link:focus { 
+    color: var(--title-text-color);
+}
+
+.site-nav .link.curent {
+    color: var(--accent-color);
+}
+
+
+  /* Застосується до всіх заголовків */
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,1;
+    text-transform: uppercase;
+    color:var(--title-text-color);
+  }
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,2;
+    text-align: center;
+
+}
+
+  /* Застосується до всіх тегів з класом text */
+.text {;
+    font-size: 14px;
+    line-height: 1,7;
+    color:var(--primary-text-color)
+  }
+.item{
+
+}
+  /* Застосується до всіх тегів з класом link */
+  .link  {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1;
+    letter-spacing: 0.02em;
+    color:var(--title-text-color);
+  }
+  .link:hover,
+  .link:focus{
+      color:var(--accent-color);  
+  }
+
+/* Застосується до всіх тегів з класом contact */
+.contact{
+    font-size: 14px;
+    line-height: 1,7;
+    color:var(--primary-text-color);
+    text-decoration: none;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--accent-color);  
+}
+
+button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary {
+    color: var(--title-text-color);
+    background-color: #eeeeee;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,2;
+    color: var(--title-text-color);
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: 1,2;
+    color: var(--primary-text-color);
+}
+.project {
+    text-decoration: none;
+}
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color);
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 2;
+    color: var(--primary-text-color);
+}
+ .logo-footer {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    color:var(--accent-color)
+}  
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+}
